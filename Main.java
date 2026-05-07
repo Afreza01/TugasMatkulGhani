@@ -3,17 +3,19 @@ public class Main {
     public static void main(String[] args) {
 
         // Variabel float
+        System.out.println("\n1. Variabel Float :");
         float strukturBaris = 10.5f;
         System.out.println("Nilai strukturBaris = " + strukturBaris);
 
         // Variabel String
+        System.out.println("\n2. Variabel String :");
         String SusunanKataBaru = "Pemrograman Struktur Data Java";
         System.out.println(SusunanKataBaru);
 
         // Array 1 dimensi
         int[] DelapanAngka = {10, 12, 18, 23, 33, 58, 67, 82};
 
-        System.out.println("\nArray 1 Dimensi:");
+        System.out.println("\n3. Array 1 Dimensi:");
         for (int angka : DelapanAngka) {
             System.out.println(angka);
         }
@@ -25,7 +27,7 @@ public class Main {
             {"14", "16", "18"}
         };
 
-        System.out.println("\nArray 2 Dimensi:");
+        System.out.println("\n4. Array 2 Dimensi:");
         for (int o = 0; o < DuaAngka.length; o++) {
             for (int j = 0; j < DuaAngka[o].length; j++) {
                 System.out.print(DuaAngka[o][j] + " ");
@@ -33,7 +35,7 @@ public class Main {
             System.out.println();
         }
 
-        System.out.println("\nLinkedList:");
+        System.out.println("\n5. LinkedList:");
         LinkedList<Integer> UrutanListAngka = new LinkedList<>();
 
         UrutanListAngka.add(15);
